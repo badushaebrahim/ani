@@ -15,12 +15,13 @@
 
 .App-header {
   background-color: #282c34;
-  min-height: 100vh;
+  min-height: 50vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  /*font-size: calc(10px + 2vmin);*/
+  font-size:3vh;
   color: white;
 }
 
@@ -35,4 +36,15 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.buts{
+  size: 2vh;
+  padding: 1vh;
+  margin: 5ch;
+}
+.buts:hover{
+  background-color: #61dafb;
+  size: 4vh;
+  padding: 2vh;
 }
